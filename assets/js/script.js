@@ -63,7 +63,7 @@ function closeModal() {
 };
 
 // Fechar o modal
-cs('.pizzaInfo--cancelButton', '.pizzaInfo--cancelMobileButton').forEach((item) =>{
+cs('.pizzaInfo--cancelMobileButton, .pizzaInfo--cancelButton').forEach((item) =>{
     item.addEventListener('click', closeModal);
 });
 
